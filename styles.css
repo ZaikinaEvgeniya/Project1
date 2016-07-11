@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font : 14px/22px Arial,sans-serif;
+}
+
+/*Структура сайта*/
+.mid{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*Шапка сайта*/
+
+.block{
+    float: left;
+    height: 110px;
+    background: #777777;
+    margin: 20px 0;
+}
+
+.block1{
+    width: 120px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.block2{
+    width: 280px;
+    margin-right: 20px;
+}
+
+.block3{
+    width: 520px;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+hr{
+    width: 960px;
+    margin: 0;
+    margin-left: 70px;
+}
+
+/*Контент*/
+.content{
+    margin-bottom: 20px;
+}
+/*Левая часть*/
+.left{
+    width: 180px;
+    margin: 20px 20px 0 70px;
+    float: left;
+}
+
+.block4{
+    width: 180px;
+    height: 340px;
+    margin-bottom: 300px;
+    margin-top: 0;
+}
+
+.block7{
+    width: 180px;
+    height: 140px;
+    margin-bottom: 0;
+}
+
+/*Центральная часть*/
+.center{
+    width: 760px;
+    float: left;
+}
+
+.center>.block{
+    background: #dcdcdc;
+}
+
+.block5{
+    width: 760px;
+    height: 210px;
+}
+
+.block6{
+    width: 136px;
+    height: 160px;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.block6:nth-of-type(6){
+    margin-right: 0;
+}
+
+.block6:nth-of-type(8){
+    margin-right: 448px;
+}
+
+.block8,.block9{
+    margin-top: 0;
+    width: 370px;
+    height: 210px;
+    margin-bottom: 0;
+}
+
+.block8{
+    margin-right: 20px;
+}
+
+/*Футер*/
+
+.block10, .block11{
+    width: 300px;
+    height: 180px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
+.block11{
+    margin-left: 0px;
+}
+
+.block12, .block13{
+    width: 320px;
+    height: 80px;
+}
+.block13{
+    margin-top: 0px;
+}
