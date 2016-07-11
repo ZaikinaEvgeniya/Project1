@@ -1,7 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    color: #ffffff;
     font : 14px/22px Arial,sans-serif;
+}
+
+a{
+    color: #ffffff;
 }
 
 /*Структура сайта*/
@@ -14,23 +19,25 @@ body{
 
 .block{
     float: left;
-    height: 110px;
     background: #777777;
     margin: 20px 0;
 }
 
 .block1{
     width: 120px;
+    height: 110px;
     margin-left: 70px;
     margin-right: 20px;
 }
 
 .block2{
     width: 280px;
+    height: 110px;
     margin-right: 20px;
 }
 
 .block3{
+    height: 110px;
     width: 520px;
 }
 
@@ -45,6 +52,15 @@ hr{
     margin: 0;
     margin-left: 70px;
 }
+
+.contacts{
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    text-align: right;
+    float: right;
+}
+
 
 /*Контент*/
 .content{
@@ -68,6 +84,16 @@ hr{
     width: 180px;
     height: 140px;
     margin-bottom: 0;
+}
+
+.nav{
+    list-style: none;
+    margin: 15px;
+    padding: 0;
+}
+
+.nav a:hover{
+    font-weight: bold;
 }
 
 /*Центральная часть*/
@@ -111,6 +137,13 @@ hr{
     margin-right: 20px;
 }
 
+.block8 span,.block9 span{
+    hyphens: auto;
+    display: block;
+    margin: 20px;
+    color: #777777;
+}
+
 /*Футер*/
 
 .block10, .block11{
@@ -120,8 +153,23 @@ hr{
     margin-right: 20px;
 }
 
+.items1,.items2{
+    list-style: none;
+    float: left;
+    margin: 20px;
+    margin-right: 50px;
+    padding: 0;
+}
+
 .block11{
     margin-left: 0px;
+}
+
+.rates{
+    list-style: square;
+    margin: 20px;
+    margin-left: 40px;
+    padding: 0px;
 }
 
 .block12, .block13{
